@@ -1,0 +1,47 @@
+.descriptionContainer {
+    max-width: 400px; /* Ancho máximo para la descripción */
+    padding: 15px 15px;
+    background-color: rgb(0, 0, 0); /* Fondo oscuro para mejorar la legibilidad */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-left: 120px; /* Separación de la izquierda */
+  
+}
+
+.descriptionSectionhistory {
+    position: relative;
+    background-image: url('/histoy.jpg'); /* Cambia la ruta según sea necesario */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Altura mínima de la sección */
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 75px;
+    align-items: center;
+    color: white; /* Color del texto */
+    font-family: 'Arial', sans-serif;
+  
+}
+
+.readMoreLink {
+    color: #FFD700; /* Color del texto */
+    text-decoration: underline; /* Subrayado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el enlace */
+    padding: 20px;
+}
+
+.reserveBtn {
+    background-color: #FFD700; /* Ajusta el color según sea necesario */
+    padding: 5px 130px; /* Ajusta el espaciado interno */
+    border: none;
+    border-radius: 20px; /* Bordes redondeados */
+    margin-top: 25px; /* Espacio superior para separar del enlace "Leer más" */
+}
+
+.textb{
+    text-decoration: none; /* Quita el subrayado del enlace */
+    cursor: pointer;
+    color: #000000; /* Color del texto */
+  
+}
+

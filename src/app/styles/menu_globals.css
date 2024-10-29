@@ -1,0 +1,100 @@
+.menuContainer {
+    min-height: 100vh;
+    background: url('../../../public/sect4.jpg') no-repeat center;
+    background-size: cover;
+    padding: 3rem 1rem;
+}
+  
+.menuContent {
+    max-width: 64rem;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 1px solid #b45309;
+}
+  
+.menuHeader {
+    background-color: #000;
+    color: #f59e0b;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #b45309;
+}
+  
+.menuHeader h1 {
+    font-size: 2.5rem;
+    font-family: serif;
+    text-align: center;
+    margin: 0;
+}
+  
+.categoryButtons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #1f1f1f;
+}
+  
+.categoryButton {
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-family: serif;
+    background-color: #4a4a4a;
+    color: #f59e0b;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.categoryButton:hover,
+.categoryButton.active {
+    background-color: #f59e0b;
+    color: #000;
+}
+  
+.menuItems {
+    padding: 1.5rem;
+}
+  
+.menuItem {
+    display: flex;
+    border-bottom: 1px solid #b45309;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+  
+.menuItem:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+  
+.menuItem img {
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-right: 1.5rem;
+}
+  
+.itemDetails {
+    flex: 1;
+}
+  
+.itemDetails h3 {
+    font-size: 1.25rem;
+    color: #f59e0b;
+    margin: 0 0 0.5rem 0;
+    font-family: serif;
+}
+  
+.description {
+    color: #a0a0a0;
+    margin: 0 0 0.5rem 0;
+}
+  
+.price {
+    color: #f59e0b;
+    font-weight: bold;
+    margin: 0;
+}

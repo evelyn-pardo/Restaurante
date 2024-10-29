@@ -1,0 +1,421 @@
+
+/* Estilos para el navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 25px;
+  z-index: 10;
+  font-family: 'Arial', sans-serif;
+  max-width: 200vh; /* Ancho máximo para el navbar */
+  margin: 0 auto; /* Centra el navbar en la pantalla */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  
+}
+
+.navLinks a:hover {
+  color: #FFD700; /* Color de hover */
+}
+.reserveBtnN {
+padding: 8px 10px;
+border-radius: 80px;
+color: black;
+}
+.reserveBtn {
+  background-color: #FFD700;
+  padding: 10px 30px;
+  border-radius: 80px;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+.reserveBtn:hover {
+  background-color: #f0c500;
+}
+
+.heroSection {
+  background-image: url('/restarurantess.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: 'Arial', sans-serif;
+
+}
+.heroSection .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Superposición oscura */
+}
+
+
+.heroSection .content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  
+}
+
+.heroSection h1 {
+  color: rgb(7, 7, 7);
+  font-size: 4rem;
+  background: #fcfbf9;
+  padding: 20px 10px;
+
+
+}
+
+.unico {
+  display: block; /* Muestra en una nueva línea */
+  font-size: 4rem; /* Tamaño de fuente  */
+  font-weight: bold; /* Pone el texto en negrita */
+  
+}
+
+.buttons {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 80px;
+}
+
+.button, .buttonYellow {
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s ease;
+  border-radius: 80px;
+
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+.buttonYellow {
+  background-color: #FFD700;
+  color: black;
+  transition: background-color 0.3s ease;
+  border-radius: 80px;
+
+}
+
+.buttonYellow:hover {
+  background-color: #f0c500;
+}
+.menuIcon {
+  display: none; /* Ocultar el icono de menú hamburguesa en pantallas grandes */
+}
+
+
+.descriptionSection {
+  position: relative;
+  background-image: url('/carta5.jpg'); /* Cambia la ruta según sea necesario */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Altura mínima de la sección */
+  display: flex;
+  align-items: center;
+  color: white; /* Color del texto */
+  font-family: 'Arial', sans-serif;
+
+}
+
+.descriptionContainer {
+  max-width: 400px; /* Ancho máximo para la descripción */
+  padding: 15px 15px;
+  background-color: rgb(0, 0, 0); /* Fondo oscuro para mejorar la legibilidad */
+  border-radius: 10px; /* Bordes redondeados */
+  margin-left: 120px; /* Separación de la izquierda */
+
+}
+
+
+.descriptionSectionhistory {
+  position: relative;
+  background-image: url('/histoy.jpg'); /* Cambia la ruta según sea necesario */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Altura mínima de la sección */
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 75px;
+  align-items: center;
+  color: white; /* Color del texto */
+  font-family: 'Arial', sans-serif;
+
+}
+
+.descriptionContainerhistory {
+  max-width: 400px; /* Ancho máximo para la descripción */
+  padding: 15px 15px;
+  background-color: rgb(0, 0, 0); /* Fondo oscuro para mejorar la legibilidad */
+  border-radius: 10px; /* Bordes redondeados */
+  margin-left: auto; /* Alinear a la derecha */
+  margin-right: 120px; /* Espacio a la derecha */
+  position: relative; /* Para un mejor control del posicionamiento */
+  float: right; /* Permitir que el contenedor flote a la derecha */
+}
+
+.readMoreLink {
+  color: #FFD700; /* Color del texto */
+  text-decoration: underline; /* Subrayado */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el enlace */
+  padding: 20px;
+}
+
+.reserveBtn {
+  background-color: #FFD700; /* Ajusta el color según sea necesario */
+  padding: 5px 130px; /* Ajusta el espaciado interno */
+  border: none;
+  border-radius: 20px; /* Bordes redondeados */
+  margin-top: 25px; /* Espacio superior para separar del enlace "Leer más" */
+}
+
+.textb{
+  text-decoration: none; /* Quita el subrayado del enlace */
+  cursor: pointer;
+  color: #000000; /* Color del texto */
+
+}
+
+.descriptionSectioncarta {
+  position: relative;
+  background-image: url('/img13.jpg'); /* Cambia la ruta según sea necesario */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Altura mínima de la sección */
+  display: flex;
+  align-items: center;
+  color: white; /* Color del texto */
+  font-family: 'Arial', sans-serif;
+}
+
+.descriptionContainercarta {
+  max-width: 400px; /* Ancho máximo para la descripción */
+  padding: 30px 20px; /* Aumentamos el padding para dar más espacio */
+  background-color: rgb(0, 0, 0); /* Fondo oscuro con transparencia */
+  border-radius: 10px; /* Bordes redondeados */
+  margin-left: 120px; /* Separación de la izquierda */
+  z-index: 2; /* Aseguramos que el contenido esté sobre la capa de la imagen */
+}
+
+.menuList {
+  list-style: none; /* Eliminamos los puntos de lista */
+  padding: 0;
+  margin-top: 40px; /* Separación superior */
+}
+
+.menuList li {
+  display: flex;
+  justify-content: space-between; /* Distribución del texto y el botón de descarga */
+  align-items: center;
+  margin-bottom: 40px; /* Espaciado entre cada opción */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Línea divisoria semitransparente */
+
+}
+
+.downloadLink {
+  color: #FFD700; /* Color dorado */
+  text-decoration: none; /* Sin subrayado */
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.downloadLink:hover {
+  text-decoration: underline; /* Efecto de subrayado al pasar el mouse */
+}
+
+
+.reservationSectionlocation {
+  position: relative;
+  background-image: url('/sect4.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 50px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+.reservationContainerlocation {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  padding: 40px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  max-width: 800px; /* Tamaño máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenedor */
+}
+
+
+.locationSection, .reservationFormSection {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.locationSection h3, .reservationFormSection h1 {
+  margin-bottom: 20px;
+}
+
+.locationSection p {
+  margin: 10px 0;
+}
+
+.locationSection a {
+  color: #FFD700; /* Color dorado */
+  text-decoration: none;
+}
+
+.locationSection a:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Línea separadora */
+  margin: 20px 0;
+}
+
+.reservationForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservationForm input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.reservationForm input::placeholder {
+  color: #ccc; /* Color del placeholder */
+}
+
+/* Estilos para la sección de formulario de reserva */
+.reservationFormSection {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px; /* Ajusta según el tamaño deseado */
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Estilos para el título */
+.reservationtitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el párrafo */
+.reservationparrafo {
+  text-align: justify; /* Justifica el texto del párrafo */
+  margin-bottom: 20px; /* Añade espacio debajo del párrafo */
+  font-size: 16px;
+  line-height: 2;
+}
+
+/* Estilos para el botón de reservar */
+.reserveButton {
+  width: 100%; /* Ocupa todo el ancho del card */
+  padding: 15px 20px;
+  font-size: 18px;
+  background-color: #FFD700; /* Color del botón */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 50px; /* Añade separación entre el botón y el párrafo */
+}
+
+
+.reserveButton:hover {
+  background-color: #e5c200; /* Color del botón en hover */
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #FFD700;
+}
+
+
+/* Icono de menú hamburguesa */
+@media (max-width: 768px) {
+  .heroSection h1 {
+    font-size: 2.5rem; /* Reducir tamaño del título en móviles */
+  }
+
+  .unico {
+    font-size: 2.5rem; /* También reducir el tamaño de otros textos grandes */
+  }
+
+  .buttons .button, .buttons .buttonYellow {
+    font-size: 0.9rem; /* Reducir el tamaño del texto de los botones */
+    padding: 10px 20px; /* Reducir el padding de los botones */
+  }
+
+  .descriptionContainer, .descriptionContainerhistory, .descriptionContainercarta {
+    max-width: 90%; /* Asegúrate de que el contenedor ocupe más espacio en pantallas pequeñas */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .reservationContainerlocation {
+    flex-direction: column; /* Cambiar la disposición a una sola columna */
+    max-width: 100%; /* Asegurar que el ancho ocupe toda la pantalla en móvil */
+    padding: 20px;
+  }
+}
